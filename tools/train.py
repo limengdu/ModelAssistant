@@ -2,6 +2,8 @@ import argparse
 import os
 import tempfile
 
+path_=os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.dirname(path_))
 import torch
 
 # TODO: Move to config file
