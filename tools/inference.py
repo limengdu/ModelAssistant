@@ -1,3 +1,8 @@
+import sys
+import os.path as osp
+current_path = osp.abspath(osp.dirname(__file__))
+sys.path.append(osp.dirname(current_path))
+
 import argparse
 import os
 import tempfile
